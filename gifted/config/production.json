@@ -1,0 +1,5 @@
+{
+    "mail": {
+        "host": "prod-mail-server"
+    }
+}

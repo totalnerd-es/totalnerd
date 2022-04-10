@@ -1,0 +1,284 @@
+{
+  error: Error: `useNewUrlParser` is an invalid option.
+      at Mongoose.set (/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js:183:48)
+      at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js:3:10)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/index.js:7:1)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: 'uncaughtException: `useNewUrlParser` is an invalid option.\n' +
+    'Error: `useNewUrlParser` is an invalid option.\n' +
+    '    at Mongoose.set (/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js:183:48)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js:3:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/index.js:7:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: 'Error: `useNewUrlParser` is an invalid option.\n' +
+    '    at Mongoose.set (/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js:183:48)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js:3:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/index.js:7:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Sun Jan 09 2022 15:06:24 GMT+0000 (Greenwich Mean Time)',
+  process: {
+    pid: 82309,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/elliotsmith/Dev/totalnerd/giftapp',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/elliotsmith/Dev/totalnerd/giftapp/index.js'
+    ],
+    memoryUsage: {
+      rss: 84574208,
+      heapTotal: 58261504,
+      heapUsed: 34874216,
+      external: 43794900,
+      arrayBuffers: 37595681
+    }
+  },
+  os: { loadavg: [ 1.80712890625, 1.90625, 2.025390625 ], uptime: 365214 },
+  trace: [
+    {
+      column: 48,
+      file: '/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js',
+      function: 'Mongoose.set',
+      line: 183,
+      method: 'set',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/elliotsmith/Dev/totalnerd/giftapp/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-09T15:06:24.672Z'
+}
+{
+  error: Error: `useNewUrlParser` is an invalid option.
+      at Mongoose.set (/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js:183:48)
+      at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js:3:10)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/index.js:7:1)
+      at Module._compile (node:internal/modules/cjs/loader:1101:14),
+  level: 'error',
+  message: 'uncaughtException: `useNewUrlParser` is an invalid option.\n' +
+    'Error: `useNewUrlParser` is an invalid option.\n' +
+    '    at Mongoose.set (/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js:183:48)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js:3:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/index.js:7:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  stack: 'Error: `useNewUrlParser` is an invalid option.\n' +
+    '    at Mongoose.set (/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js:183:48)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js:3:10)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (/Users/elliotsmith/Dev/totalnerd/giftapp/index.js:7:1)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1101:14)',
+  exception: true,
+  date: 'Sun Jan 09 2022 15:06:24 GMT+0000 (Greenwich Mean Time)',
+  process: {
+    pid: 82309,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/elliotsmith/Dev/totalnerd/giftapp',
+    execPath: '/usr/local/bin/node',
+    version: 'v16.13.0',
+    argv: [
+      '/usr/local/bin/node',
+      '/Users/elliotsmith/Dev/totalnerd/giftapp/index.js'
+    ],
+    memoryUsage: {
+      rss: 84836352,
+      heapTotal: 58523648,
+      heapUsed: 35236864,
+      external: 43805254,
+      arrayBuffers: 37605995
+    }
+  },
+  os: { loadavg: [ 1.80712890625, 1.90625, 2.025390625 ], uptime: 365214 },
+  trace: [
+    {
+      column: 48,
+      file: '/Users/elliotsmith/Dev/totalnerd/giftapp/node_modules/mongoose/lib/index.js',
+      function: 'Mongoose.set',
+      line: 183,
+      method: 'set',
+      native: false
+    },
+    {
+      column: 10,
+      file: '/Users/elliotsmith/Dev/totalnerd/giftapp/startup/db.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1153,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/elliotsmith/Dev/totalnerd/giftapp/index.js',
+      function: null,
+      line: 7,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1101,
+      method: '_compile',
+      native: false
+    }
+  ],
+  timestamp: '2022-01-09T15:06:24.675Z'
+}

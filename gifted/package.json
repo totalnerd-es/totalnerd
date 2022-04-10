@@ -1,0 +1,26 @@
+{
+  "name": "giftapp",
+  "version": "1.0.0",
+  "description": "An service to list and share gift ideas with friends and family",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elliot Dooleysmith",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^5.0.1",
+    "joi": "^17.5.0",
+    "joi-objectid": "^4.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.5",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
+  }
+}
